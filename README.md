@@ -1,5 +1,5 @@
 # Target Generator
-> Sistema de geração de targets para exploração autônoma de robôs móveis.
+> Target generation system for autonomous exploration of mobile robots in unknown indoor environments. 
 
 Este pacote ros propricia a navegação autônoma e mapeamento de robôs móveis em abientes desconhecidos. Ao receber um occupancy grid do node /SLAM, que faz o mapemanento e localização simultaneos, trasnforma o mapa em uma superficie de função objetivo e executa algorimos de otimização para busca os pontos do mapa mais interessantes para o robôs. Ao encontrar o melhor ponto este é enviado para o robô, e então o robô navega até lá.
 
