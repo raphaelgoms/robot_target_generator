@@ -1,13 +1,13 @@
 # Robot Targets Generator
 > Target generation system for autonomous exploration of mobile robots in unknown indoor environments.
 
-This ROS package provides autonomous navigation and mapping of mobile robots in unknown environments. Upon receiving an occupancy grid from the /SLAM node, which performs simultaneous mapping and localization, it transforms the map into an objective function surface and runs optimization algorithms to search for the most interesting points on the map for the robots. When the best point is found, it is sent to the robot, and then the robot navigates there.
+This ROS package provides autonomous navigation and mapping of mobile robots in unknown environments. 
+
+Upon receiving an occupancy grid from the /SLAM node, which performs simultaneous mapping and localization, it transforms the map into an objective function surface and runs optimization algorithms to search for the most interesting points on the map for the robots. When the best point is found, it is sent to the robot, and then the robot navigates there.
 
 System tested in simulation using the robotic simulator [V-REP](http://www.coppeliarobotics.com/). The scenes used are available in the ./scenes/ directory. 
 
 It is necessary to install the packages [navigation](http://wiki.ros.org/navigation), [move_base](http://wiki.ros.org/move_base), [youbot_navigation](http://wiki.ros .org/youbot_navigation) and [gmapping](http://wiki.ros.org/gmapping).
-
-![](../header.png)
 
 ## How to run
 
@@ -56,14 +56,10 @@ catkin build
 
 <!--- ## Meta --->
 
-Distributed under the XYZ license. See `LICENSE` for more information.
+ <!--- Distributed under the XYZ license. See `LICENSE` for more information.  --->
 
-[https://github.com/yourname/github-link]()
+ <!--- [https://github.com/yourname/github-link]() --->
 
-
-###### Contributors:
-
-Raphael Gomes – https://github.com/raphaelgoms / raphaelgoms@gmail.com
 
 ## Contributing
 
@@ -72,4 +68,8 @@ Raphael Gomes – https://github.com/raphaelgoms / raphaelgoms@gmail.com
 3. Do _commit_ (`git commit -am 'Add some fooBar'`)
 4. _Push_ (`git push origin feature/fooBar`)
 5. Create a new _Pull Request_
+
+###### Contributors:
+
+Raphael Gomes – https://github.com/raphaelgoms / raphaelgoms@gmail.com
 
