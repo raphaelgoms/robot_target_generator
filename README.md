@@ -53,13 +53,13 @@ cd ..
 catkin build
 ```
 
-<!---
-## Meta
+
+<!--- ## Meta --->
 
 Distributed under the XYZ license. See `LICENSE` for more information.
 
 [https://github.com/yourname/github-link]()
---->
+
 
 ###### Contributors:
 
